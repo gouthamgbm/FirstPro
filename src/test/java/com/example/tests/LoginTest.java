@@ -24,7 +24,7 @@ public class LoginTest extends BaseTest{
     public void testLogin(String username, String password) {
         try {
             driver.get("https://practicetestautomation.com/practice-test-login/");
-            driver.findElement(By.id("username")).sendKeys(username);
+            driver.findElement(By.id("username me")).sendKeys(username);
             driver.findElement(By.id("password")).sendKeys(password);
             driver.findElement(By.id("submit")).click();
 
